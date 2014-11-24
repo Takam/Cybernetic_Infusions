@@ -4,3 +4,7 @@
 *.project
 gradlew
 gradlew.bat
+*.class
+*.gz
+*.cfg
+*.properties
