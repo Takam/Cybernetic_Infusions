@@ -3,3 +3,13 @@
 1416862439334	Copy package
 1416862457709	Delete element
 1416863343420	Delete element
+1417118859155	Rename package 'com.takam23.ci'
+1417118881771	Rename package 'com.takam23.cybernetic_infusions'
+1417118894519	Rename package 'com.takam23.cybernetic_infusion'
+1417118924966	Rename package 'com.takam23.ci.client.gui'
+1417118942939	Rename package 'com.takam23.ci.handler'
+1417118979225	Rename package 'com.takam23.ci.init'
+1417118988914	Rename package 'com.takam23.ci.item'
+1417118999778	Rename package 'com.takam23.ci.proxy'
+1417119010958	Rename package 'com.takam23.ci.reference'
+1417119021296	Rename package 'com.takam23.ci.util'

@@ -1,0 +1,9 @@
+package com.takam23.ci.item;
+
+import net.minecraft.item.Item;
+
+public class ItemCI extends Item {
+	public ItemCI() {
+		super();
+	}
+}
