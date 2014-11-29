@@ -1,0 +1,8 @@
+package com.takam23.cybernetic_infusions.item;
+
+public class ItemCyberinfusedBook extends ItemCI {
+	public ItemCyberinfusedBook() {
+		super();
+		this.setUnlocalizedName("cyberinfusedBook");
+	}
+}

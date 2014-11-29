@@ -1,6 +1,7 @@
 package com.takam23.cybernetic_infusions;
 
 import com.takam23.cybernetic_infusions.handler.ConfigurationHandler;
+import com.takam23.cybernetic_infusions.init.ModBlocks;
 import com.takam23.cybernetic_infusions.init.ModItems;
 import com.takam23.cybernetic_infusions.proxy.IProxy;
 import com.takam23.cybernetic_infusions.reference.Reference;
@@ -33,6 +34,7 @@ public class Cybernetic_Infusions {
 	    public void init(FMLInitializationEvent event)
 	    {
 	    	ModItems.init();
+	    	ModBlocks.init();
 	    }
 
 	    @Mod.EventHandler

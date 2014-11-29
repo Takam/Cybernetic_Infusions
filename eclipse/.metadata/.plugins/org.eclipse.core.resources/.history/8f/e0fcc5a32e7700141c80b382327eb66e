@@ -1,0 +1,16 @@
+package com.takam23.cybernetic_infusions.reference;
+
+import net.minecraft.item.Item.ToolMaterial;
+
+public class Names {
+	public static final class Items {
+		public static final String MUNDANE_DISK = "mundaneDisk";
+		public static final String CYBER_BOOK = "cyberinfusedBook";
+	}
+	public static final class Materials {
+		public static final String BASIC = "basicMonado";
+	}
+	public static final class Weapons {
+		public static final String BASIC_SWORD = "basicMonado";
+	}
+}

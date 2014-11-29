@@ -1,0 +1,13 @@
+package com.takam23.cybernetic_infusions.item;
+
+import net.minecraft.item.ItemSword;
+
+import com.takam23.cybernetic_infusions.reference.Materials;
+import com.takam23.cybernetic_infusions.reference.Names;
+
+public class ItemBasicMonado extends ItemSword {
+	public ItemBasicMonado() {
+		super(Materials.Tools.BASIC);
+		this.setUnlocalizedName(Names.Weapons.BASIC_SWORD);
+	}
+}

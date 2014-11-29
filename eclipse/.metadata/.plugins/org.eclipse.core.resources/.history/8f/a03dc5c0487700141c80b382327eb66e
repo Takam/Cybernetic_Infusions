@@ -1,0 +1,16 @@
+package com.takam23.cybernetic_infusions.init;
+
+import com.takam23.cybernetic_infusions.block.*;
+import com.takam23.cybernetic_infusions.reference.Names;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+
+public class ModBlocks {
+	public static final BlockCI monadoStand = new BlockMonadoStand();
+	public static final BlockCI intercharger = new BlockInterCharger();
+	
+	public static void init() {
+		GameRegistry.registerBlock(monadoStand, Names.Blocks.MONADO_STAND);
+		GameRegistry.registerBlock(intercharger, Names.Blocks.INTERCHARGER);
+	}
+}

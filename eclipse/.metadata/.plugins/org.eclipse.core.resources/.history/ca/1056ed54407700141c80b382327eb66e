@@ -1,0 +1,14 @@
+package com.takam23.cybernetic_infusions.block;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class BlockCI extends Block {
+	public BlockCI(Material material) {
+		super(material);
+	}
+	public BlockCI() {
+		this(Material.rock);
+	}
+
+}
