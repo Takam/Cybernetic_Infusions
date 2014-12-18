@@ -1,0 +1,15 @@
+package com.takam23.cybernetic_infusions.tileentity;
+
+public class TileEntityMonadoStand {
+	
+	public static final int INVENTORY_SLOT = 9;
+	public static final int SWORD_INVENTORY_INDEX = 0;
+	public static final int PMAIN_INVENTORY_INDEX = 1;
+	public static final int PMODIFIER_INVENTORY_INDEX = 2;
+	public static final int SMAIN_INVENTORY_INDEX = 3;
+	public static final int SMODIFIER_INVENTORY_INDEX = 4;
+	public static final int TFMAIN_INVENTORY_INDEX = 5;
+	public static final int TMODIFIER_INVENTORY_INDEX = 6;
+	public static final int FMAIN_INVENTORY_INDEX = 1;
+	public static final int FMODIFIER_INVENTORY_INDEX = 2;
+}

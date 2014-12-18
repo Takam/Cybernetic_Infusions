@@ -1,0 +1,14 @@
+package com.takam23.cybernetic_infusions.enchantments;
+
+public enum EnumUpgradeTypes {
+	all,
+    armor,
+    armor_feet,
+    armor_legs,
+    armor_torso,
+    armor_head,
+    weapon,
+    digger,
+    breakable,
+    nano;
+}

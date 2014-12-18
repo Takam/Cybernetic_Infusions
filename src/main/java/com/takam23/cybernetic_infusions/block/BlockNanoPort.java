@@ -9,6 +9,5 @@ public class BlockNanoPort extends BlockCI {
 	public BlockNanoPort() {
 		super();
 		this.setBlockName(Names.Nano.PORT_NANO);
-		this.setCreativeTab(CreativeTabCI.CI_TAB);
 	}
 }

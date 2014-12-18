@@ -7,6 +7,5 @@ public class ItemCyberIngot extends ItemCI {
 	public ItemCyberIngot() {
 		super();
 		this.setUnlocalizedName(Names.Items.CYBER_INGOT);
-		this.setCreativeTab(CreativeTabCI.CI_TAB);
 	}
 }

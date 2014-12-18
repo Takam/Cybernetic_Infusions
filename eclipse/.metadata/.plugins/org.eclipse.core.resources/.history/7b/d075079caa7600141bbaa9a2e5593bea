@@ -1,7 +1,0 @@
-package com.takam23.cybernetic_infusions.reference;
-
-public class Names {
-	public static final class Items {
-		public static final String MUNDANE_DISK = "mundaneDisk";
-	}
-}

@@ -3,6 +3,8 @@ package com.takam23.cybernetic_infusions;
 import com.takam23.cybernetic_infusions.handler.ConfigurationHandler;
 import com.takam23.cybernetic_infusions.init.ModBlocks;
 import com.takam23.cybernetic_infusions.init.ModItems;
+import com.takam23.cybernetic_infusions.init.Recipies;
+import com.takam23.cybernetic_infusions.init.TileEntities;
 import com.takam23.cybernetic_infusions.proxy.IProxy;
 import com.takam23.cybernetic_infusions.reference.Reference;
 import com.takam23.cybernetic_infusions.util.LogHelper;
@@ -28,13 +30,16 @@ public class Cybernetic_Infusions {
 	    {
 	        ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 	        FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+	        
+	        ModItems.init();
+	    	ModBlocks.init();
 	    }
 
 	    @Mod.EventHandler
 	    public void init(FMLInitializationEvent event)
 	    {
-	    	ModItems.init();
-	    	ModBlocks.init();
+	    	Recipies.init();
+	    	TileEntities.init();
 	    }
 
 	    @Mod.EventHandler

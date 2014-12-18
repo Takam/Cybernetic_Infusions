@@ -1,8 +1,0 @@
-package com.takam23.ci.item;
-
-public class ItemMundaneDisk extends ItemCI {
-	public ItemMundaneDisk() {
-		super();
-		this.setUnlocalizedName(mundaneDisk);
-	}
-}

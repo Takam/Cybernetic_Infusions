@@ -1,0 +1,22 @@
+package com.takam23.cybernetic_infusions.enchantments;
+
+import net.minecraft.enchantment.Enchantment;
+import net.minecraft.enchantment.EnumEnchantmentType;
+
+public class EnchantmentCorrupt extends Enchantment {
+
+	protected EnchantmentCorrupt(int id, int weight,
+			EnumEnchantmentType enchantType) {
+		super(id, weight, enchantType);
+		if(enchantType == EnumEnchantmentType.armor) {
+			this.setName("corruptArmour");
+		} else if(enchantType == EnumEnchantmentType.bow) {
+			this.setName("whiplash");
+		} else if(enchantType == EnumEnchantmentType.weapon) {
+			this.setName("vengance");
+		} else if(enchantType == EnumEnchantmentType.digger) {
+			this.setName("burn");
+		}
+	}
+
+}

@@ -7,6 +7,5 @@ public class ItemPureEssence extends ItemCI {
 	public ItemPureEssence() {
 		super();
 		this.setUnlocalizedName(Names.Essence.PURE_ESSENCE);
-		this.setCreativeTab(CreativeTabCI.CI_TAB);
 	}
 }

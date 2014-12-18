@@ -9,6 +9,5 @@ public class BlockInterCharger extends BlockCI {
 	public BlockInterCharger() {
 		super(Material.anvil);
 		this.setBlockName(Names.Blocks.INTERCHARGER);
-		this.setCreativeTab(CreativeTabCI.CI_TAB);
 	}
 }

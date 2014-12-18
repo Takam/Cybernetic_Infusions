@@ -1,0 +1,7 @@
+package com.takam23.cybernetic_infusions.tileentity;
+
+public class TileEntityMonadoStand {
+	
+	public static final int INVENTORY_SLOT = 9;
+	
+}

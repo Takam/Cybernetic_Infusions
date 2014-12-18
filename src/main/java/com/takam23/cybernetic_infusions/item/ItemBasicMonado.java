@@ -5,6 +5,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;
 
 import com.takam23.cybernetic_infusions.creativeTab.CreativeTabCI;
+import com.takam23.cybernetic_infusions.handler.DiskHandler;
 import com.takam23.cybernetic_infusions.reference.Materials;
 import com.takam23.cybernetic_infusions.reference.Names;
 import com.takam23.cybernetic_infusions.reference.Textures;
@@ -12,7 +13,10 @@ import com.takam23.cybernetic_infusions.reference.Textures;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class ItemBasicMonado extends ItemSword {
+public class ItemBasicMonado extends ItemSword implements IUpgrade {
+	
+	public int modLevel = 0;
+	
 	public ItemBasicMonado() {
 		super(Materials.Tools.BASIC);
 		this.setUnlocalizedName(Names.Weapons.BASIC_SWORD);
@@ -40,4 +44,11 @@ public class ItemBasicMonado extends ItemSword {
 	protected String getUnwrappedUnlocalizedName(String unlocalizedName) {
         return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
     }
+	@Override
+	public int getComplexUpgrade(int level) {
+		level = this.modLevel;
+		return level;
+	}
 }
+
+	

@@ -9,6 +9,5 @@ public class BlockMonadoStand extends BlockCI {
 	public BlockMonadoStand() {
 		super();
 		this.setBlockName(Names.Blocks.MONADO_STAND);
-		this.setCreativeTab(CreativeTabCI.CI_TAB);
 	}
 }

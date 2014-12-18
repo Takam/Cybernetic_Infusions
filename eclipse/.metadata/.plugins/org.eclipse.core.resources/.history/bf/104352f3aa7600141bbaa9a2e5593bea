@@ -1,9 +1,0 @@
-package com.takam23.cybernetic_infusions.item;
-
-public class ItemMundaneDisk extends ItemCI {
-	public ItemMundaneDisk() {
-		super();
-		this.setUnlocalizedName("mundaneDisk");
-		this.maxStackSize = 64;
-	}
-}

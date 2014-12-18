@@ -7,6 +7,5 @@ public class BlockNanoPrint extends BlockCI {
 	public BlockNanoPrint() {
 		super();
 		this.setBlockName(Names.Nano.PRINT_NANO);
-		this.setCreativeTab(CreativeTabCI.CI_TAB);
 	}
 }

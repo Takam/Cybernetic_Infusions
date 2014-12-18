@@ -7,6 +7,5 @@ public class ItemLifeEssence extends ItemCI {
 	public ItemLifeEssence() {
 		super();
 		this.setUnlocalizedName(Names.Essence.LIFE_ESSENCE);
-		this.setCreativeTab(CreativeTabCI.CI_TAB);
 	}
 }

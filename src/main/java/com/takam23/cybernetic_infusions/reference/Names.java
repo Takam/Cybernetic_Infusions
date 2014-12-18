@@ -16,6 +16,7 @@ public class Names {
 		public static final String MONADO_STAND = "monadoStand";
 		public static final String INTERCHARGER = "intercharger";
 		public static final String STORAGE_CUBE = "storageCube";
+		public static final String ENGRAVER = "engraver";
 	}
 	
 	public static final class Nano {
@@ -33,9 +34,18 @@ public class Names {
 		public static final String LIFE_ESSENCE = "lifeEssence";
 		public static final String SOUL_ESSENCE = "soulEssence";
 	}
+	
+	public static final class Enchantment {
+		public static final String[] enchantments1 = {"slowness", "purify", 
+			"corrupt", "experience"};
+		public static final String[] enchantments2 = {"slowness", "stregthen", "purify", "knockback", 
+			"corrupt", "sharpness", "experience"};
+	}
+	
 	public static final class Materials {
 		public static final String BASIC = "basicMonado";
 	}
+	
 	public static final class Weapons {
 		public static final String BASIC_SWORD = "basicMonado";
 	}

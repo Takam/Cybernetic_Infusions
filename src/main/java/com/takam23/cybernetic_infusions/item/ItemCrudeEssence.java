@@ -7,6 +7,5 @@ public class ItemCrudeEssence extends ItemCI {
 	public ItemCrudeEssence() {
 		super();
 		this.setUnlocalizedName(Names.Essence.CRUDE_ESSENCE);
-		this.setCreativeTab(CreativeTabCI.CI_TAB);
 	}
 }

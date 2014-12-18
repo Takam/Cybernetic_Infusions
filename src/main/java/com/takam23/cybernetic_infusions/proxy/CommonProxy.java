@@ -1,5 +1,7 @@
 package com.takam23.cybernetic_infusions.proxy;
 
-public abstract class CommonProxy implements IProxy {
+import cpw.mods.fml.common.network.IGuiHandler;
 
+public abstract class CommonProxy implements IProxy {
+	
 }

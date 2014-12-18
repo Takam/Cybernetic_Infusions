@@ -7,7 +7,5 @@ public class BlockStorageCube extends BlockCI {
 	public BlockStorageCube() {
 		super();
 		this.setBlockName(Names.Blocks.STORAGE_CUBE);
-		this.setCreativeTab(CreativeTabCI.CI_TAB);
-		this.setCreativeTab(CreativeTabCI.CI_TAB);
 	}
 }

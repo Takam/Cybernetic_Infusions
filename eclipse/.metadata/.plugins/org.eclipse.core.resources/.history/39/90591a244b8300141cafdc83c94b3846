@@ -1,0 +1,14 @@
+package com.takam23.cybernetic_infusions.enchantments;
+
+import net.minecraft.enchantment.Enchantment;
+import net.minecraft.enchantment.EnumEnchantmentType;
+
+public class EnchantmentCorrupt extends Enchantment {
+
+	protected EnchantmentCorrupt(int p_i1926_1_, int p_i1926_2_,
+			EnumEnchantmentType p_i1926_3_) {
+		super(p_i1926_1_, p_i1926_2_, p_i1926_3_);
+		// TODO Auto-generated constructor stub
+	}
+
+}

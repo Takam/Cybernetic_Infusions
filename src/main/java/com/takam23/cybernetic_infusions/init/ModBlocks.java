@@ -11,6 +11,7 @@ public class ModBlocks {
 	public static final BlockCI monadoStand = new BlockMonadoStand();
 	public static final BlockCI intercharger = new BlockInterCharger();
 	public static final BlockCI storageCube = new BlockStorageCube();
+	public static final BlockCI engraver = new BlockEngraver();
 	public static final BlockCI nanoArmour = new BlockNanoArmour();
 	public static final BlockCI nanoAttack = new BlockNanoAttack();
 	public static final BlockCI nanoCarry = new BlockNanoCarry();
@@ -20,6 +21,8 @@ public class ModBlocks {
 	public static void init() {
 		GameRegistry.registerBlock(monadoStand, Names.Blocks.MONADO_STAND);
 		GameRegistry.registerBlock(intercharger, Names.Blocks.INTERCHARGER);
+		GameRegistry.registerBlock(storageCube, Names.Blocks.STORAGE_CUBE);
+		GameRegistry.registerBlock(engraver, Names.Blocks.ENGRAVER);
 		GameRegistry.registerBlock(nanoArmour, Names.Nano.ARMOUR_NANO);
 		GameRegistry.registerBlock(nanoAttack, Names.Nano.ATTACK_NANO);
 		GameRegistry.registerBlock(nanoCarry, Names.Nano.CARRY_NANO);

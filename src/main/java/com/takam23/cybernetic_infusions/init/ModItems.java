@@ -1,6 +1,7 @@
 package com.takam23.cybernetic_infusions.init;
 
 import net.minecraft.item.ItemNameTag;
+import net.minecraftforge.oredict.OreDictionary;
 
 import com.takam23.cybernetic_infusions.item.*;
 import com.takam23.cybernetic_infusions.reference.Names;
@@ -42,5 +43,7 @@ public class ModItems {
 		GameRegistry.registerItem(soulEssence, Names.Essence.SOUL_ESSENCE);
 		
 		GameRegistry.registerItem(basicMonado, Names.Weapons.BASIC_SWORD);
+		
+		OreDictionary.registerOre("ingotSilver", ModItems.crudeSilver);
 	}
 }

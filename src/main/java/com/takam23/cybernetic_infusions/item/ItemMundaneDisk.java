@@ -7,6 +7,5 @@ public class ItemMundaneDisk extends ItemCI {
 	public ItemMundaneDisk() {
 		super();
 		this.setUnlocalizedName(Names.Items.MUNDANE_DISK);
-		this.setCreativeTab(CreativeTabCI.CI_TAB);
 	}
 }

@@ -7,6 +7,5 @@ public class ItemNanobotShell extends ItemCI {
 	public ItemNanobotShell() {
 		super();
 		this.setUnlocalizedName(Names.Items.NANOBOT_SHELL);
-		this.setCreativeTab(CreativeTabCI.CI_TAB);
 	}
 }

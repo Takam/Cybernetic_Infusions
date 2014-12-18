@@ -1,5 +1,6 @@
 package com.takam23.cybernetic_infusions.item;
 
+import com.takam23.cybernetic_infusions.creativeTab.CreativeTabCI;
 import com.takam23.cybernetic_infusions.reference.Reference;
 import com.takam23.cybernetic_infusions.reference.Textures;
 
@@ -13,6 +14,7 @@ public class ItemCI extends Item {
 	public ItemCI() {
 		super();
 		this.maxStackSize = 64;
+		this.setCreativeTab(CreativeTabCI.CI_TAB);
 	}
 	
     @Override

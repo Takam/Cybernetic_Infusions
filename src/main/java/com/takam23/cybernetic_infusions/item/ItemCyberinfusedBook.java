@@ -7,7 +7,6 @@ public class ItemCyberinfusedBook extends ItemCI {
 	public ItemCyberinfusedBook() {
 		super();
 		this.setUnlocalizedName(Names.Items.CYBER_BOOK);
-		this.setCreativeTab(CreativeTabCI.CI_TAB);
 		this.maxStackSize = 1;
 	}
 }

@@ -7,6 +7,5 @@ public class ItemLaserTracker extends ItemCI {
 	public ItemLaserTracker() {
 		super();
 		this.setUnlocalizedName(Names.Items.LASER_TRACKER);
-		this.setCreativeTab(CreativeTabCI.CI_TAB);
 	}
 }

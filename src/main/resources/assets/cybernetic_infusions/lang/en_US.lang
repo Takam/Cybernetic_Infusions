@@ -17,8 +17,15 @@ item.cybernetic_infusions:soulEssence.name=Soul Essence
 tile.cybernetic_infusions:monadoStand.name=Monado Stand
 tile.cybernetic_infusions:intercharger.name=Intercharger
 tile.cybernetic_infusions:storageCube.name=Storage Cube
+tile.cybernetic_infusions:engraver.name=Engraver
 tile.cybernetic_infusions:nanoArmour.name=Nano Armour Port
 tile.cybernetic_infusions:nanoAttack.name=Nano Attack Port
 tile.cybernetic_infusions:nanoCarry.name=Nano Carry Port
 tile.cybernetic_infusions:nanoPort.name=Nano Transfer Port
 tile.cybernetic_infusions:nanoPrint.name=Nano Print Port
+
+#Creative Tab
+itemGroup.cybernetic_infusions=Cybernetic Infusions
+
+#GUIs
+container.cybernetic_infusions:engraver_gui=Engraver

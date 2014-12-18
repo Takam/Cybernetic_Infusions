@@ -1,9 +1,0 @@
-package com.takam23.cybernetic_infusions.block;
-
-import net.minecraft.block.material.Material;
-
-public class BlockNanoPort extends BlockCI {
-	public ItemNanoPort() {
-		super(Material.iron);
-	}
-}

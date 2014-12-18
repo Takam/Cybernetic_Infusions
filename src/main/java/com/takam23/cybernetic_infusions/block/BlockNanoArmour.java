@@ -7,6 +7,5 @@ public class BlockNanoArmour extends BlockCI {
 	public BlockNanoArmour() {
 		super();
 		this.setBlockName(Names.Nano.ARMOUR_NANO);
-		this.setCreativeTab(CreativeTabCI.CI_TAB);
 	}
 }
